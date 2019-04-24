@@ -1,0 +1,53 @@
+/* myStyle.css */
+
+body {
+    background-image: url("/picture/background.jpg");
+    background-color: #F08080;
+
+}
+h1 {
+    color: white;
+    text align: center;
+    word-spacing: 10px;
+}
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+nav {
+    text-align: right;
+    display: block;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav > ul> li  {
+  display: inline;
+}
+
+nav > ul {
+    padding: 10px;
+    margin: 10px;
+    list-style-type: none;
+    font-style: normal;
+    font-size: 18px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    line-height: 1;
+}
+nav >ul > li a:link {
+    color: purple;
+}
+
+nav > ul > li a:hover {
+    color: yellow;
+}
+
+nav > ul> li a:visited {
+  color: blue;
+}
