@@ -1,12 +1,4 @@
-html, body {
-	overflow: hidden;
-	margin: 0;
-	height: 100%;
-	width: 100%;
-    -webkit-animation-name: fontfix;
-    -webkit-animation-duration: 0.1s;
-    -webkit-animation-iteration-count: 1;
-}
+
 
 
 
